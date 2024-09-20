@@ -3,9 +3,8 @@ name: My first workflow
 on:
   push:
     branches: 
-      - 'releaase/**'
-    paths: 
-      - 'doc/**'
+      - main
+  workflow_dispatch:
 jobs:
   first_job:
     name: My first job
